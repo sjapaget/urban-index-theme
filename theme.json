@@ -1,8 +1,99 @@
 {
     "$schema": "https://schemas.wp.org/trunk/theme.json",
-    "version": 1,
+    "version": 2,
     "settings": {
+        "appearanceTools": true,
+        "color": {
+            "palette": [
+                {
+                    "color": "#3F73AF",
+                    "name": "Main Blue",
+                    "slug": "main"
+                },
+                {
+                    "color": "#DBE1ED",
+                    "name": "Highlight Blue",
+                    "slug": "highlight"
+                },
+                {
+                    "color": "#FECE00",
+                    "name": "Accent Yellow",
+                    "slug": "accent"
+                },
+                {
+                    "color": "#FDFDFD",
+                    "name": "Background White",
+                    "slug": "background"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "650px",
+            "wideSize": "1000px"
+        },
+        "spacing": {
+            "spacingScale": {
+              "operator": "+",
+              "increment": 0.5,
+              "steps": 9,
+              "mediumStep": 1.5,
+              "unit": "rem"
+            },
+            "units": [
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "dropCap": true,
+            "fluid": true,
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+                    "name": "Main Font",
+                    "slug": "main-font"  
+                }
+            ],
+            "fontSizes": [
+                {
+                  "size": "1rem",
+                  "slug": "small"
+                },
+                {
+                  "size": "1.125rem",
+                  "slug": "medium"
+                },
+                {
+                  "size": "1.75rem",
+                  "slug": "large"
+                },
+                {
+                  "size": "2.25rem",
+                  "slug": "x-large"
+                },
+                {
+                  "size": "2.75rem",
+                  "slug": "xx-large"
+                }
+            ]
+        }
     },
     "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--background)",
+            "text": "var(--wp--preset--color--main)"
+        },
+        "elements": {
+            "button": {
+                "border": {
+                    "radius": "24px"
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--background)",
+                    "background": "var(--wp--preset--color--main)"
+                }
+            }
+        }
     }
   }
