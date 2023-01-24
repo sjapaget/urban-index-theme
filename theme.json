@@ -88,6 +88,55 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/gallery": {
+				"color": {
+					"background": "var:preset|color|highlight"
+				}
+			},
+			"core/heading": {
+				"color": {
+					"text": "var:preset|color|main"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "#3F73AF"
+						}
+					},
+					"link": {
+						":hover": {
+							"color": {
+								"text": "#DBE1ED"
+							}
+						},
+						"color": {
+							"text": "var:preset|color|main"
+						}
+					}
+				}
+			},
+			"core/list": {
+				"color": {
+					"text": "var:preset|color|main"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "#3F73AF"
+						}
+					},
+					"link": {
+						":hover": {
+							"color": {
+								"text": "#DBE1ED"
+							}
+						},
+						"color": {
+							"text": "var:preset|color|main"
+						}
+					}
+				}
+			},
 			"core/navigation": {
 				"color": {
 					"text": "var(--wp--preset--color--main)"
@@ -116,6 +165,28 @@
 				},
 				"elements": {
 					"link": {
+						"color": {
+							"text": "var:preset|color|main"
+						}
+					}
+				}
+			},
+			"core/paragraph": {
+				"color": {
+					"text": "var:preset|color|main"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "#3F73AF"
+						}
+					},
+					"link": {
+						":hover": {
+							"color": {
+								"text": "#DBE1ED"
+							}
+						},
 						"color": {
 							"text": "var:preset|color|main"
 						}
@@ -195,14 +266,34 @@
 				}
 			},
 			"heading": {
+				"color": {
+					"text": "#3F73AF"
+				},
 				"typography": {
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
 				}
 			},
 			"link": {
+				":hover": {
+					"color": {
+						"text": "#DBE1ED"
+					}
+				},
+				"color": {
+					"text": "var:preset|color|main"
+				},
 				"typography": {
 					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
 				}
+			}
+		},
+		"spacing": {
+			"blockGap": "2rem",
+			"padding": {
+				"bottom": "1px",
+				"left": "1px",
+				"right": "1px",
+				"top": "1px"
 			}
 		},
 		"typography": {
