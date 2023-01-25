@@ -1,0 +1,23 @@
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading -->
+<h2>Most Popular Articles</h2>
+<!-- /wp:heading -->
+
+<!-- wp:query {"queryId":5,"query":{"perPage":"4","pages":"1","offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{"category":[14]}},"displayLayout":{"type":"flex","columns":3},"layout":{"type":"constrained"}} -->
+<div class="wp-block-query"><!-- wp:post-template {"className":"ui--article-card--container"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}},"border":{"radius":"1rem"}},"borderColor":"main","layout":{"type":"constrained","justifyContent":"center","contentSize":"50vw"}} -->
+<div class="wp-block-group has-border-color has-main-border-color" style="border-radius:1rem;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:post-featured-image {"isLink":true,"style":{"border":{"radius":"7px"}}} /-->
+
+<!-- wp:post-date {"textAlign":"center","isLink":true,"displayType":"modified"} /-->
+
+<!-- wp:post-title {"textAlign":"center","isLink":true,"linkTarget":"_blank"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+<p>Oops, looks like there aren't any articles here...</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
