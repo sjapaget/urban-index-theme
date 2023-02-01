@@ -25,15 +25,7 @@
 				}
 			]
 		},
-		"border": {
-			"radius": true,
-			"style": true,
-			"color": true,
-			"width": true
-		},
-		"custom": {
-			
-		},
+		"custom": [],
 		"layout": {
 			"contentSize": "650px",
 			"wideSize": "1000px"
