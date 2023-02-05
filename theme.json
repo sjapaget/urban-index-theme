@@ -135,9 +135,6 @@
 				"color": {
 					"text": "var(--wp--preset--color--main)"
 				},
-				"layout": {
-					
-				},
 				"elements": {
 					"link": {
 						"color": {
