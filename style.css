@@ -11,3 +11,15 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: urban-index
 */
+
+.ui-btn {
+    border-radius: 7rem;
+}
+
+.ninja-forms-field {
+    border-radius: 7rem !important;
+}
+
+.ui-input {
+    border-radius: 7rem !important;
+}

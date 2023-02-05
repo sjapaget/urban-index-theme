@@ -25,7 +25,9 @@
 				}
 			]
 		},
-		"custom": [],
+		"custom": {
+			
+		},
 		"layout": {
 			"contentSize": "650px",
 			"wideSize": "1000px"
@@ -132,6 +134,9 @@
 			"core/navigation": {
 				"color": {
 					"text": "var(--wp--preset--color--main)"
+				},
+				"layout": {
+					
 				},
 				"elements": {
 					"link": {
