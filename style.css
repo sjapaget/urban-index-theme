@@ -23,3 +23,7 @@ Text Domain: urban-index
 .ui-input {
     border-radius: 7rem !important;
 }
+
+.ui--article-card--container {
+    /* Add rules to prevent differing container heights on desktop here */
+}
