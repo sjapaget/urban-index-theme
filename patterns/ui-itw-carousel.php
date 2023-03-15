@@ -62,7 +62,7 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><a href="http://urbanindex.local/category/interviews/" data-type="category" data-id="16">See more Interviews</a></h2>
+<h2 class="has-text-align-center"><a href="https://www.urbanindex.fyi/category/interviews/" data-type="category" data-id="16">See more Interviews</a></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:cb/slide --></div>
